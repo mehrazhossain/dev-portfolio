@@ -17,7 +17,7 @@ h3 {
   color: #00897b;
 }
 
-section {
+.flexiable-container {
   display: flex;
   margin-bottom: 150px;
 }
@@ -51,4 +51,20 @@ section {
   background-image: url(/images/dream-bg.png);
   background-repeat: no-repeat;
   background-position: right;
+}
+
+.experience-item {
+  box-shadow: 10px 10px 40px gray;
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
+  text-align: justify;
+}
+.experience-area {
+  background-image: url(/images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
 }
