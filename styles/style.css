@@ -6,12 +6,12 @@ body {
 
 h1 {
   font-family: 'Josefin Slab', serif;
-  font-size: 50px;
+  font-size: 40px;
 }
 
 h3 {
   font-family: 'Josefin Slab', serif;
-  font-size: 50px;
+  font-size: 30px;
 }
 .design {
   color: #00897b;
@@ -52,7 +52,9 @@ h3 {
   background-repeat: no-repeat;
   background-position: right;
 }
-
+.big-dream-design {
+  padding-right: 5%;
+}
 .experience-item {
   box-shadow: 10px 10px 40px gray;
   width: 40%;
@@ -67,4 +69,27 @@ h3 {
   background-image: url(/images/exp-bg.png);
   background-repeat: no-repeat;
   background-position: left;
+}
+.ex-heading {
+  padding-left: 5%;
+}
+.exp-item {
+  border-left: 7px solid;
+  border-image: linear-gradient(blue, cyan);
+  border-image-slice: 1;
+}
+.exp-item2 {
+  border-left: 7px solid;
+  border-image: linear-gradient(purple, cyan);
+  border-image-slice: 1;
+}
+footer {
+  text-align: center;
+  padding: 5%;
+}
+
+.footer-link {
+  text-decoration: none;
+  font-weight: 700;
+  color: #00897b;
 }
